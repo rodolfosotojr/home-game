@@ -1,0 +1,494 @@
+header{
+    background-image: url("../images/comiskeypark11aug1935-1.jpg");
+}
+
+.container{
+    max-width: 960px;
+}
+
+.color{
+    background-color: #f5f6f5;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 8em;
+    color: crimson;
+}
+
+.count{
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 1.5em;
+    color: crimson;
+}
+
+p {
+    font-size: 15px;
+}
+
+.date-selection {
+    text-align: center;
+
+}
+
+h2{
+    color: crimson;
+}
+
+.startDate {
+    border: 2px solid crimson;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.endDate {
+    border: 2px solid crimson;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.city-selection {
+    text-align: center;
+}
+
+.originCty {
+    border: 2px solid crimson;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10 0 20 0;
+}
+
+.endCty {
+    border: 2px solid crimson;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10 0 20 0;
+}
+
+.submit-btn {
+    text-align: center;
+    background-color: crimson;
+    color: white
+    
+}
+
+.submit {
+    text-align: center;
+}
+
+.table{
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3em;
+    color: crimson;
+}
+
+hr {
+    border: solid black;
+    width: 576px;
+}
+
+.btn-area {
+    width: 576px;
+    margin: 0 33%;
+} 
+
+.header-text{
+    z-index: 50;
+    position: relative;
+}
+
+.header-image {
+    z-index: 25;
+    position:absolute;
+    opacity: .9;
+    width: 100%;
+    align-text: center;
+}
+
+.count{
+    z-index: 25;
+    position: relative;
+}
+
+
+/* //Extra-Small devices (up to 359) */
+
+@media (max-width: 359px) {
+    body {
+        max-width: 359px;
+        margin: 0 auto;
+    }
+    
+    .container {
+        width: 359px;
+    }
+     
+    h1 {
+        text-align: center;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 4em;
+        color: crimson;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: .5rem;
+    }
+    
+    .date-selection {
+        text-align: center;
+    
+    }
+    
+    .startDate {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+    
+    }
+    
+    .endDate {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .city-selection {
+        text-align: center;
+    }
+    
+    .originCty {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10 0 20 0;
+    }
+    
+    .endCty {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10 0 20 0;
+    }
+    
+    .submit-btn {
+        text-align: center;
+        background-color: crimson;
+        color: white
+        
+    }
+    
+    .submit {
+        text-align: center;
+    }
+    
+    
+    h3 {
+        text-align: center;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 1em;
+        color: crimson;
+    }
+    
+    hr {
+        border: solid black;
+        width: 350px;
+    }
+    
+    .btn-area {
+        width: 350px;
+        margin: 0 10%;
+    } 
+    
+} 
+
+
+/* // Small devices (360px to 376px) */
+
+@media (max-width: 376px) {
+    body {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .container{
+        max-width: 360px;
+    }
+     
+    h1 {
+        text-align: center;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 4em;
+        color: crimson;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: .5rem;
+    }
+    
+    .date-selection {
+        text-align: center;
+    
+    }
+    
+    .startDate {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+    
+    }
+    
+    .endDate {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .city-selection {
+        text-align: center;
+    }
+    
+    .originCty {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10 0 20 0;
+    }
+    
+    .endCty {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10 0 20 0;
+    }
+    
+    .submit-btn {
+        text-align: center;
+        background-color: crimson;
+        color: white
+        
+    }
+    
+    .submit {
+        text-align: center;
+    }
+    
+    
+    h3 {
+        text-align: center;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 1em;
+        color: crimson;
+    }
+    
+    hr {
+        border: solid black;
+        width: 350px;
+    }
+    
+    .btn-area {
+        width: 350px;
+        margin: 0 10%;
+    } 
+    
+} 
+
+/* //Medium devices (411px and up) */
+@media (max-width: 412px) {
+    body {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .container{
+        max-width: 400px;
+    }
+     
+    h1 {
+        text-align: center;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 4em;
+        color: crimson;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: .5rem;
+    }
+    
+    .date-selection {
+        text-align: center;
+    
+    }
+    
+    .startDate {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+    
+    }
+    
+    .endDate {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .city-selection {
+        text-align: center;
+    }
+    
+    .originCty {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10 0 20 0;
+    }
+    
+    .endCty {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10 0 20 0;
+    }
+    
+    .submit-btn {
+        text-align: center;
+        background-color: crimson;
+        color: white
+        
+    }
+    
+    .submit {
+        text-align: center;
+    }
+    
+    
+    h3 {
+        text-align: center;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 1em;
+        color: crimson;
+    }
+    
+    hr {
+        border: solid black;
+        width: 350px;
+    }
+    
+    .btn-area {
+        width: 350px;
+        margin: 0 10%;
+    } 
+    
+} 
+
+/* //Large devices (768px and up) */
+
+@media (max-width: 500px) {
+    body {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .container{
+        width: 650px;
+    }
+     
+    h1 {
+        text-align: center;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 4em;
+        color: crimson;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: .5rem;
+    }
+    
+    .date-selection {
+        text-align: center;
+    
+    }
+    
+    .startDate {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+    
+    }
+    
+    .endDate {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .city-selection {
+        text-align: center;
+    }
+    
+    .originCty {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10 0 20 0;
+    }
+    
+    .endCty {
+        border: 2px solid crimson;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10 0 20 0;
+    }
+    
+    .submit-btn {
+        text-align: center;
+        background-color: crimson;
+        color: white
+        
+    }
+    
+    .submit {
+        text-align: center;
+    }
+    
+    
+    h3 {
+        text-align: center;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 1em;
+        color: crimson;
+    }
+    
+    hr {
+        border: solid black;
+        width: 350px;
+    }
+    
+    .btn-area {
+        width: 350px;
+        margin: 0 10%;
+    } 
+    
+} 
